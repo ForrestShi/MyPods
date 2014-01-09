@@ -15,8 +15,6 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/ForrestShi/MyPods"
 
 
-  s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
-
 
   s.author       = { "Forrest" => "forrest.shi@gmail.com" }
   
