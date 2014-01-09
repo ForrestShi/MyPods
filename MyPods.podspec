@@ -61,8 +61,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, '6.1'
+  s.platform     = :ios
+  s.platform     = :ios, '6.1'
 
   #  When using multiple platforms
   # s.ios.deployment_target = '6.1'
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ForrestShi/MyPods.git", :tag => "0.0.1" }
+  s.source       = { :git => "git@github.com:ForrestShi/MyPods.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
