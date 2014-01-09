@@ -3,10 +3,12 @@ Pod::Spec.new do |s|
 
   s.name         = "MyPods"
   s.version      = "0.0.1"
-  s.summary      = "A short description of MyPods."
+  s.summary      = "my secret weapons to reuse some useful code."
 
   s.description  = <<-DESC
                    my personal git repo
+                   *reuseable views
+                   *resuable category 
 
                    DESC
 
