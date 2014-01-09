@@ -21,6 +21,7 @@
 		CD85555B187E7BCE00D0860B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD85553D187E7BCD00D0860B /* UIKit.framework */; };
 		CD855563187E7BCE00D0860B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD855561187E7BCE00D0860B /* InfoPlist.strings */; };
 		CD855565187E7BCE00D0860B /* MyPodsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD855564187E7BCE00D0860B /* MyPodsDemoTests.m */; };
+		CD855570187E7BE000D0860B /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85556F187E7BE000D0860B /* GradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CD855560187E7BCE00D0860B /* MyPodsDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyPodsDemoTests-Info.plist"; sourceTree = "<group>"; };
 		CD855562187E7BCE00D0860B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD855564187E7BCE00D0860B /* MyPodsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPodsDemoTests.m; sourceTree = "<group>"; };
+		CD85556E187E7BE000D0860B /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		CD85556F187E7BE000D0860B /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		CD85553F187E7BCD00D0860B /* MyPodsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CD855571187E7CA400D0860B /* Views */,
 				CD855548187E7BCD00D0860B /* AppDelegate.h */,
 				CD855549187E7BCD00D0860B /* AppDelegate.m */,
 				CD85554B187E7BCD00D0860B /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				CD855561187E7BCE00D0860B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD855571187E7CA400D0860B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD85556E187E7BE000D0860B /* GradientView.h */,
+				CD85556F187E7BE000D0860B /* GradientView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +265,7 @@
 				CD855550187E7BCD00D0860B /* ViewController.m in Sources */,
 				CD85554A187E7BCD00D0860B /* AppDelegate.m in Sources */,
 				CD855546187E7BCD00D0860B /* main.m in Sources */,
+				CD855570187E7BE000D0860B /* GradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
