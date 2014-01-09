@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = 'MIT (example)'
+  # s.license      = 'MIT (example)'
   # s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
 
 
@@ -86,8 +86,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
-  s.exclude_files = 'Classes/Exclude'
+  s.source_files  = 'MyClass', 'MyClass/**/*.{h,m}'
+  s.exclude_files = 'MyClass/Exclude'
 
   # s.public_header_files = 'Classes/**/*.h'
 
